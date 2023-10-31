@@ -1,0 +1,291 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+  background-color: rgb(209, 209, 9);
+  font-size: 18px;
+  font-family: 'Karla', 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: rgb(252, 108, 24);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+
+header h1 {
+  margin-top: 60px;
+}
+
+header p {
+  margin-bottom: 60px;
+}
+
+nav {
+  background-color:  rgb(212, 99, 34);
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav a {
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.content {
+  display: flex;
+}
+
+#inhoudeen {
+  flex: 25%;
+  background-color: rgb(238, 170, 131);
+  padding: 20px;
+  margin-top: 5px;
+
+}
+
+#inhoudtwee {
+  flex: 75%;
+  background-color: white;
+  padding: 20px;
+  margin-top: 5px;
+}
+
+#inhoudtwee h1 {
+  color:  rgb(218, 102, 34);
+}
+#inhoudtwee2 h2 {
+  color:  rgb(218, 102, 34);
+}
+#inhoudtwee h2 {
+  color:  rgb(218, 102, 34);
+}
+
+.content-container {
+  display: flex;
+}
+
+#img1 {
+  width: 350px;
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#img2 {
+  width: 350px;
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#img3 {
+  width: 350px;
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#imgtwee {
+  width: 400px;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#imgdrie {
+  width: 350px;
+  float: right;
+  padding-right: 380px;
+  padding-top: 20px;
+}
+#imgvier {
+  width: 350px;
+  float: left; 
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+#imgvijf {
+  width: 400px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+  padding-left: 1px;
+
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+#bericht {
+  height: 180px;
+  margin-top: 3px;
+}
+#voornaam,
+#achternaam,
+#email,
+#land {
+  margin-top: 3px;
+  }
+
+input, select, textarea {
+  margin-bottom: 12px;
+  padding: 15px;
+  margin-top: 8px;
+}
+
+input[type="submit"] {
+  width: 100px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 0;
+  background-color:  rgb(218, 102, 34);
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.brede-afbeelding {
+  width: 85%;
+}
+
+#inhoudeen1{
+  flex: 25%;
+  background-color: rgb(238, 170, 131);
+  color:black;
+  padding: 20px;
+  margin-top: 5px;
+  padding-bottom: 13%;
+}
+
+#inhoudtwee2{
+  flex: 75%;
+  background-color: white;
+  color:black;
+  padding: 20px;
+  margin-top: 5px;
+  padding-bottom: 13%;
+}
+
+footer{
+  background-color: rgb(218, 102, 34);
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  p{
+    font-size: 15px;
+  }
+  h1{
+    font-size: 19px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  body{
+    font-family: 'Karla', 'Montserrat', sans-serif;
+  }
+  header {
+      height: 150px;
+  }
+  header h1 {
+    padding-top: 10px;
+  }
+  header p {
+    padding-bottom: 10px;
+  }
+  nav{
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .content{
+    flex-direction: column;
+  }
+  #inhoudeen,
+  #inhoudtwee {
+    flex: 100%;
+    padding: 20px;
+    margin-top: 0;
+
+  }
+  #inhoudtwee2{
+    flex: 100%;
+    padding: 20px;
+    margin-top: 0;
+
+  }
+  #inhoudeen{
+    margin-top: 5px;
+  }
+  .content-container {
+    flex-direction: column;
+  }
+  .content-section {
+    padding: 20px;
+  }
+  .content-section img {
+    max-width: 100%;
+  }
+  #img1,
+  #imgtwee,
+  #imgdrie,
+  #imgvier
+   {
+    width: 300px;
+    padding: 25px;
+  }
+  #img2, #img3, #imgdrie, #imgvier{
+    width: 150px;
+    padding: 25px;
+  }
+  #imgdrie {
+    float: right;
+    padding-right: 0;
+  }
+  #imgvier {
+    float: left;
+    padding-left: 0;
+  }
+  #imgvijf {
+    width: 340px;
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+  label {
+    margin-bottom: 5px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: auto;
+    padding: 5px;
+    padding-left: 1px;
+  }
+  #voornaam,
+  #achternaam,
+  #email,
+  #land,
+  #bericht {
+    margin-top: 2px;
+  }
+  footer{
+    height: 100px;
+  }
+}
